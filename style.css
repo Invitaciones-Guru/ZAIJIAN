@@ -38,15 +38,7 @@ img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(100%) cont
 /* Hero Split */
 .hero-split { display: grid; grid-template-columns: 1.2fr 0.8fr; height: 100vh; background: var(--gray); }
 .vertical-title { height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; letter-spacing: 15px; }
-.vertical-title h1 { 
-    font-family: 'Bodoni Moda', serif; 
-    font-size: 4rem !important; /* Forzamos el tamaño original */
-    margin: 20px 0; 
-    writing-mode: vertical-rl; 
-    transform: rotate(180deg); 
-    white-space: nowrap; /* Evita que el texto se amontone o se haga pequeño */
-}
-
+.vertical-title h1 { font-family: 'Bodoni Moda', serif; font-size: 4rem; margin: 20px 0; writing-mode: vertical-rl; transform: rotate(180deg); }
 /* Ajuste para el lado del texto en el Hero */
 .hero-text-side {
     display: flex;
