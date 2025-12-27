@@ -17,11 +17,7 @@ html, body {
     position: relative;
 }
 
-/* Forzar que el Hero mantenga su tamaño real */
-.hero-split {
-    height: 100vh;
-    width: 100vw;
-}
+
 
 
 
